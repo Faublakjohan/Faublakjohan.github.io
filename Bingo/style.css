@@ -1,0 +1,219 @@
+body{
+margin: 0;
+padding: 0;
+font-family: 'Courier New', Courier, monospace;
+background: #1e577a;
+height: 100vh;}
+
+.fomulario{
+padding: 5px;
+position: absolute;
+top: 25%;
+left: 10%;
+transform: translate(-50%, -50%);
+width: 180px;
+background: white;
+border-radius: 10px;
+} 
+
+.fomulario h1{
+text-align: center;
+padding: 0 0 0px 0;
+border-bottom: 1px solid silver;}
+
+.fomulario form{ 
+padding: 0, 40px;
+box-sizing: border-box;
+}
+
+.form .usuario{
+position:relative;
+border-bottom: 2px solid #adadad;
+margin: 30px 0;
+}
+.usuario inpu{    
+width: 100%;
+padding: 0 10px;
+height: 40px;
+font-size: 16px;
+border: none;
+background:none;
+outline: none;
+}
+.usuario label{position: absolute;
+top: 50%;
+left: 50%;
+color: #4b4b4b;
+transform: translate(-50%, -50% );
+font-size: 16px;
+pointer-events: none;
+}
+.usuario span ::before{
+content:"";
+position:absolute;
+top: 40px;
+left: 0;
+width: 100%;
+height: 2px;
+background: #382674 
+}   
+.logo{
+top: 15%;
+left: 50%;
+width: 150px;
+height: 150px;
+border-radius: 80px;
+position: absolute;}
+
+.contenedor{
+padding: 5px;
+top: 25%;
+left: 10%;
+width: 20px;
+background: white;
+border-radius: 10px; }
+
+.play{
+top: 50%;
+left: 5%;
+width: 150px;
+height: 150px;
+border-radius: 50px;
+position: absolute;}
+
+.parrafo1{
+color: white;
+text-align: center;
+top: 72%;
+left: 5%;
+width: 150px;
+height: 150px;
+border-radius: 50px;
+position: absolute;}
+
+.impresora{
+top: 50%;
+left: 25%;
+width: 150px;
+height: 150px;
+border-radius: 50px;
+position: absolute}
+
+.parrafo2{
+color: white;
+text-align: center;
+top: 72%;
+left: 25%;
+width: 150px;
+height: 150px;
+border-radius: 50px;
+position: absolute;}
+
+.clientes{
+top: 50%;
+left: 45%;
+width: 150px;
+height: 150px;
+border-radius: 50px;
+position: absolute}
+
+.parrafo3{
+color: white;
+text-align: center;
+top: 72%;
+left: 45%;
+width: 150px;
+height: 150px;
+border-radius: 50px;
+position: absolute;}
+
+.graficas{
+top: 50%;
+left: 65%;
+width: 150px;
+height: 150px;
+border-radius: 50px;
+position: absolute}
+
+.parrafo4{
+color: white;
+text-align: center;
+top: 72%;
+left: 65%;
+width: 150px;
+height: 150px;
+border-radius: 50px;
+position: absolute;}
+
+.cartones{
+top: 80%;
+left: 25%;
+width: 150px;
+height: 150px;
+border-radius: 50px;
+position: absolute}
+
+.parrafo5{
+color: white;
+text-align: center;
+top: 105%;
+left: 5%;
+width: 150px;
+height: 150px;
+border-radius: 50px;
+position: absolute;}
+
+.ajustes{
+top: 80%;
+left: 65%;
+width: 150px;
+height: 150px;
+border-radius: 50px;
+position: absolute}
+
+.parrafo6{
+color: white;
+text-align: center;
+top: 105%;
+left: 25%;
+width: 150px;
+height: 150px;
+border-radius: 50px;
+position: absolute;}
+
+
+.resultado{
+top: 80%;
+left: 45%;
+width: 150px;
+height: 150px;
+border-radius: 50px;
+position: absolute}
+
+.parrafo7{
+  color: white;
+  text-align: center;
+  top: 105%;
+  left: 45%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+  position: absolute;}
+
+.partida{
+top: 80%;
+left: 5%;
+width: 150px;
+height: 150px;
+border-radius: 50px;
+position: absolute}
+
+.parrafo8{
+  color: white;
+  text-align: center;
+  top: 105%;
+  left: 65%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+  position: absolute;}
